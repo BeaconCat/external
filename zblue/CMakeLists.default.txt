@@ -131,7 +131,7 @@ if(CONFIG_BT)
       endif()
 
       if(CONFIG_BT_ISO)
-        list(APPEND CSRCS ${HOSTDIR}/iso.c ${HOSTDIR}/conn.c)
+        list(APPEND CSRCS ${HOSTDIR}/iso.c)
       endif()
       if(CONFIG_BT_CHANNEL_SOUNDING)
         list(APPEND CSRCS ${HOSTDIR}/cs.c)
