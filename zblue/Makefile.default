@@ -85,7 +85,7 @@ ifeq ($(CONFIG_BT_HCI),y)
     endif
 
     ifeq ($(CONFIG_BT_ISO),y)
-      CSRCS += $(HOSTDIR)/iso.c $(HOSTDIR)/conn.c
+      CSRCS += $(HOSTDIR)/iso.c
     endif
     ifeq ($(CONFIG_BT_CHANNEL_SOUNDING),y)
       CSRCS += $(HOSTDIR)/cs.c
